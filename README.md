@@ -47,7 +47,3 @@ cat stage1.bin stage2.bin > boot.bin
     - *Example (Linux):* `sudo dd if=boot.bin of=/dev/sdX bs=512`
 3. Boot your target PC from the USB drive (ensure Legacy BIOS / CSM boot is enabled).
 4. Wait for the dump to complete (it will show 100%).
-5. The RAM contents will be saved on the USB drive starting from LBA 64 (offset `32768` bytes). You can extract it later using `dd` or a hex editor.
-
-## License
-MIT
