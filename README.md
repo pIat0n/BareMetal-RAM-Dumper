@@ -1,5 +1,8 @@
 # BareMetal RAM Dumper
 
+<img width="4320" height="2032" alt="image" src="https://github.com/user-attachments/assets/02aa51f9-ad96-4443-91e8-8b645f086e12" />
+
+
 A simple x86 bare-metal tool designed to boot from a disk/USB and dump the system's RAM directly to the booting medium. It relies on BIOS interrupts to boot and perform disk operations, and enters unreal mode to access memory above the 1MB barrier.
 
 ## Background: Cold Boot Attacks ❄️
